@@ -1,4 +1,5 @@
 package BST;
+package navisk;
 
 public class BST {
 	Node root;
