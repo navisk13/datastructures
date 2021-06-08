@@ -58,6 +58,8 @@ public class LinkedList {
 	public void delete_at_tail(){
 		if(head==null)
 			System.out.println("list Empty");
+		else if(head.next==null)
+			head=null;
 		else
 		{
 			Node temp=head;
